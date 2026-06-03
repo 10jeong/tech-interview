@@ -1,4 +1,5 @@
 # tech-interview
+## 객체지향 (OOP)
 <details markdown="1">
   <summary>인터페이스(Interface)와 추상 클래스(Abstract Class)의 차이점은 무엇인가요?</summary>
   <div>
@@ -88,6 +89,8 @@ java한정 클래스가 인스턴스된 것을 객체라고 할 수 있습니다
 
 
 
+
+## 데이터베이스 (Database)
 <details markdown="1">
   <summary>정규화와 역정규화의 차이를 설명해주세요.</summary>
   <div>
