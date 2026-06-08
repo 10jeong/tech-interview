@@ -171,4 +171,32 @@ RDB는 고정된 스키마를 가져 스키마 변경시 큰 비용이 발생하
       </li>
     </ul>
   </div>
+</details>
+<details markdown="1">
+  <summary>Legacy Spring과 Spring boot의 차이를 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+Legacy Spring과 Spring Boot의 가장 큰 차이는 '설정의 자동화'와 '실행 환경의 간편함'입니다.  Legacy Spring은 개발자가 모든 설정(XML/Java)을 수동으로 관리하고 외장 WAS를 별도로 구축해야 하므로 초기 환경 설정이 매우 복잡합니다. 반면, Spring Boot는 'Auto Configuration'을 통해 설정을 자동화하고 내장 서버를 포함하여, 설정 과정 없이 즉시 애플리케이션 실행이 가능합니다. 결과적으로 Spring Boot는 개발자가 인프라 설정이 아닌 비즈니스 로직에만 집중하게 하여, 개발주기를 단축하고 시스템 신뢰성을 높여줍니다.</li>
+      </li>
+    </ul>
+  </div>
+</details> 
+
+## 자료구조
+<details markdown="1">
+  <summary>문자열이 immutable인 이유를 설명해주세요</summary>
+  <div>
+    <ul>
+
+<li>
+문자열이 불변(immutable)인 이유는 크게 메모리 효율성, 보안, 그리고 멀티스레드 환경에서의 안전성 때문입니다.
+
+첫째, String Pool을 통해 동일한 리터럴을 공유함으로써 메모리를 절약할 수 있습니다. <br/>
+둘째, 파일 경로나 네트워크 연결 등 중요한 정보를 담는 객체로서, 외부에서 값이 변경될 위험이 없어 보안상 안전합니다. <br/>
+셋째, 값이 변하지 않으므로 여러 스레드가 동시에 접근해도 별도의 동기화 처리 없이 스레드 세이프(Thread-safe)를 보장합니다. <br/>
+
+결론적으로, 성능 최적화와 안정적인 시스템 운영을 위해 문자열을 불변 객체로 설계하는 것입니다.</li>
+    </ul>
+  </div>
 </details> 
