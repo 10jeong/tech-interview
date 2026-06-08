@@ -153,6 +153,16 @@ RDB는 고정된 스키마를 가져 스키마 변경시 큰 비용이 발생하
   </div>
 </details> 
 <details markdown="1">
+  <summary>JOIN의 개념과 사용 사례를 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+JOIN이란, 데이터를 검색하기 위해 두 개 이상의 테이블을 연결하는 방법입니다. 검색하는 상황에 따라 INNER JOIN, OUTER JOIN, CROSS JOIN 등을 사용할 수 있습니다. JOIN을 설계할 때는, 탐색하는 데이터의 양이나 방법에 따라 성능이 좌우될 수 있기 때문에 JOIN하려는 컬럼에 인덱스를 걸거나 JOIN 테이블의 순서를 조절하면서 성능을 높일 수 있습니다.</li>
+      </li>
+    </ul>
+  </div>
+</details> 
+<details markdown="1">
   <summary>외래 키(Foreign Key)와 참조 무결성을 설명해주세요.</summary>
   <div>
     <ul>
