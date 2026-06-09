@@ -183,16 +183,6 @@ JOIN이란, 데이터를 검색하기 위해 두 개 이상의 테이블을 연�
   </div>
 </details>
 <details markdown="1">
-  <summary>Legacy Spring과 Spring boot의 차이를 설명해주세요</summary>
-  <div>
-    <ul>
-      <li>
-Legacy Spring과 Spring Boot의 가장 큰 차이는 '설정의 자동화'와 '실행 환경의 간편함'입니다.  Legacy Spring은 개발자가 모든 설정(XML/Java)을 수동으로 관리하고 외장 WAS를 별도로 구축해야 하므로 초기 환경 설정이 매우 복잡합니다. 반면, Spring Boot는 'Auto Configuration'을 통해 설정을 자동화하고 내장 서버를 포함하여, 설정 과정 없이 즉시 애플리케이션 실행이 가능합니다. 결과적으로 Spring Boot는 개발자가 인프라 설정이 아닌 비즈니스 로직에만 집중하게 하여, 개발주기를 단축하고 시스템 신뢰성을 높여줍니다.</li>
-      </li>
-    </ul>
-  </div>
-</details> 
-<details markdown="1">
   <summary>데드락(Deadlock)을 방지하는 방법을 설명해주세요.</summary>
   <div>
     <ul>
@@ -200,6 +190,18 @@ Legacy Spring과 Spring Boot의 가장 큰 차이는 '설정의 자동화'와 '�
 데이터베이스 데드락은 여러 트랜잭션이 서로가 보유한 락이 해제되기를 기다리면서 무한 대기하는 상황입니다.
 예방 방법으로는 트랜잭션 간 락 획득 순서를 통일해서 순환 대기가 발생하지 않도하는 것이 대표적입니다.
 데드락이 발생하면 DBMS가 이를 탐지한 뒤 한쪽 트랜잭션을 롤백시키며, 애플리케이션에서는 예외를 처리하고 재시도하는 방식으로 대응할 수 있습니다.
+      </li>
+    </ul>
+  </div>
+</details> 
+
+## 백엔드 프레임워크 (Spring)
+<details markdown="1">
+  <summary>Legacy Spring과 Spring boot의 차이를 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+Legacy Spring과 Spring Boot의 가장 큰 차이는 '설정의 자동화'와 '실행 환경의 간편함'입니다.  Legacy Spring은 개발자가 모든 설정(XML/Java)을 수동으로 관리하고 외장 WAS를 별도로 구축해야 하므로 초기 환경 설정이 매우 복잡합니다. 반면, Spring Boot는 'Auto Configuration'을 통해 설정을 자동화하고 내장 서버를 포함하여, 설정 과정 없이 즉시 애플리케이션 실행이 가능합니다. 결과적으로 Spring Boot는 개발자가 인프라 설정이 아닌 비즈니스 로직에만 집중하게 하여, 개발주기를 단축하고 시스템 신뢰성을 높여줍니다.</li>
       </li>
     </ul>
   </div>
