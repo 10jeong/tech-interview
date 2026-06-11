@@ -226,7 +226,17 @@ Spring은 AOP를 프록시 기반으로 구현합니다. AOP가 적용된 Bean�
     </ul>
   </div>
 </details> 
-
+<details markdown="1">
+  <summary>JPA와 Hibernate의 차이를 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+JPA는 자바에서 ORM을 사용하여 관계형 데이터베이스를 객체 지향적으로 다룰 수 있도록 만든 표준 인터페이스이고, Hibernate는 JPA의 명세를 구현한 대표적인 ORM 프레임워크입니다.
+        JPA로 ORM에 필요한 기능을 정의하면, Hibernate는 이를 구현하여 SQL 생성이나 영속성 관리 등을 수행합니다.</li>
+      </li>
+    </ul>
+  </div>
+</details>
 
 ## 자료구조
 <details markdown="1">
