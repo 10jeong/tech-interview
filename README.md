@@ -198,6 +198,19 @@ JOIN이란, 데이터를 검색하기 위해 두 개 이상의 테이블을 연�
 
 ##  백엔드 프레임워크
 <details markdown="1">
+  <summary>Legacy Spring과 Spring boot의 차이를 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+Legacy Spring과 Spring Boot의 가장 큰 차이는 '설정의 자동화'와 '실행 환경의 간편함'입니다.  <br/>
+        Legacy Spring은 개발자가 모든 설정(XML/Java)을 수동으로 관리하고 외장 WAS를 별도로 구축해야 하므로 초기 환경 설정이 매우 복잡합니다. <br/>
+        반면, Spring Boot는 'Auto Configuration'을 통해 설정을 자동화하고 내장 서버를 포함하여, 설정 과정 없이 즉시 애플리케이션 실행이 가능합니다. <br/>
+        결과적으로 Spring Boot는 개발자가 인프라 설정이 아닌 비즈니스 로직에만 집중하게 하여, 개발주기를 단축하고 시스템 신뢰성을 높여줍니다.</li>
+      </li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
   <summary>AOP가 무엇이며 Spring에서 어떻게 구현하는지 설명해주세요.</summary>
   <div>
     <ul>
