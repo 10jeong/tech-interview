@@ -265,6 +265,20 @@ JPA는 자바에서 ORM을 사용하여 관계형 데이터베이스를 객체 �
     </ul>
   </div>
 </details>
+<details>
+  <summary>
+    Bean 라이프사이클을 설명해주세요.
+  </summary>
+  <div>
+    <ul>
+      <li>
+        스프링 Bean의 라이프사이클은 컨테이너가 Bean을 생성하고 의존관계를 주입한 뒤 초기화 과정을 거쳐 사용되다가 컨테이너 종료 시 소멸되는 과정입니다. 순서로는 생성 → 의존관계 주입 → 초기화 → 사용 → 소멸입니다. 
+
+또한 @PostConstruct와 @PreDestroy를 사용하면 Bean 생성 후 또는 소멸 전에 필요한 작업을 수행할 수 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
 
 ## 자료구조
 <details markdown="1">
