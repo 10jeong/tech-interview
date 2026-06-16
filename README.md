@@ -311,6 +311,16 @@ Spring Security는 Spring 애플리케이션의 인증(Authentication)과 인가
     </ul>
   </div>
 </details>
+<details markdown="1">
+  <summary>Auto Configuration 기능을 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+Auto Configuration은 애플리케이션에서 필요한 Bean들을 자동으로 구성해주는 Spring Boot의 기능으로, 반복적인 Bean 등록과 설정 코드를 줄이고, 개발자가 비즈니스 로직에만 집중할 수 있도록 도와주는 기능입니다. 예시로 DataSource나 DispatcherServlet, ObjectMapper, RestTemplate과 같은 기능이 자동 등록으로 설정됩니다.
+      </li>
+    </ul>
+  </div>
+</details>
 
 ## 자료구조
 <details markdown="1">
@@ -326,6 +336,16 @@ Spring Security는 Spring 애플리케이션의 인증(Authentication)과 인가
 셋째, 값이 변하지 않으므로 여러 스레드가 동시에 접근해도 별도의 동기화 처리 없이 스레드 세이프(Thread-safe)를 보장합니다. <br/>
 
 결론적으로, 성능 최적화와 안정적인 시스템 운영을 위해 문자열을 불변 객체로 설계하는 것입니다.</li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
+  <summary>HashMap과 TreeMap 차이를 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+HashMap과 TreeMap은 모두 데이터를 저장하고 조회하기 위한 Map 자료구조입니다. HashMap의 경우에는 Key 값에 Hash 함수를 사용하여 인덱스를 결정하고, 해당 인덱스에 데이터를 저장합니다. TreeMap은 이진 탐색 트리 중 균형을 맞추는 레드-블랙 트리를 사용하여 데이터를 저장합니다. 일반적으로 HashMap이 검색과 저장에서 빠른 성능을 보이고, 추가적으로 데이터가 정렬된 형태를 유지하거나 범위 검색이 빈번한 경우 TreeMap을 사용할 수 있습니다.</li>
     </ul>
   </div>
 </details>
