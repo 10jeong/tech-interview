@@ -316,7 +316,7 @@ Spring Security는 Spring 애플리케이션의 인증(Authentication)과 인가
   <div>
     <ul>
       <li>
-Auto Configuration은 애플리케이션에서 필요한 Bean들을 자동으로 구성해주는 Spring Boot의 기능으로, 반복적인 Bean 등록과 설정 코드를 줄이고, 개발자가 비즈니스 로직에만 집중할 수 있도록 도와주는 기능입니다. 예시로 DataSource나 DispatcherServlet, ObjectMapper, RestTemplate과 같은 기능이 자동 등록으로 설정됩니다.
+Auto Configuration은 Spring Boot가 의존성을 보고 필요한 Bean을 자동으로 등록해주는 기능입니다. 이를 통해 반복적인 설정 코드를 줄일 수 있고, 개발자는 비즈니스 로직에 집중할 수 있습니다. 예를 들어 spring-boot-starter-web을 추가하면 DispatcherServlet이 설정되고, JPA 의존성이 있으면 DataSource, EntityManagerFactory 같은 Bean이 자동으로 구성됩니다.
       </li>
     </ul>
   </div>
