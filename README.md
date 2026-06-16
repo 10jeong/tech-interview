@@ -299,6 +299,18 @@ JPA는 자바에서 ORM을 사용하여 관계형 데이터베이스를 객체 �
     </ul>
   </div>
 </details>
+<details markdown="1">
+  <summary>spring security 기본 개념을 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+Spring Security는 Spring 애플리케이션의 인증(Authentication)과 인가(Authorization)를 담당하는 보안 프레임워크입니다. 필터 체인 기반으로 동작하며 인증된 사용자를 SecurityContext에 저장해 요청마다 사용자 정보를 관리합니다. 또한 세션 기반 인증, JWT 인증, 권한 관리, CSRF 방어 등 다양한 보안 기능을 제공합니다.
+
+저는 JWT 기반 인증을 구현하면서 Security Filter Chain에 커스텀 필터를 추가해 토큰을 검증했고, 검증된 사용자 정보를 Authentication 객체로 생성하여 SecurityContext에 저장한 뒤 인가 처리에 활용한 경험이 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
 
 ## 자료구조
 <details markdown="1">
