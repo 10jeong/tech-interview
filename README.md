@@ -322,6 +322,18 @@ Auto Configuration은 Spring Boot가 의존성을 보고 필요한 Bean을 자�
   </div>
 </details>
 
+##  백엔드 프레임워크
+<details markdown="1">
+  <summary>REST와 SOAP의 차이를 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+SOAP와 REST는 둘 다 다른 애플리케이션과 소통하기 위해 만들어진 규칙입니다. SOAP의 경우, 통신 규칙을 엄격하게 정의하여 데이터의 무결성이나 보안을 보장할 수 있고, REST의 경우, 무상태나 캐싱을 적용하여 확장성을 높이는 방식입니다. 따라서 높은 수준의 보안이 필요한 경우 SOAP가 적합하고, 일반적인 웹 개발에서는 접근성과 확장성이 좋은 REST를 사용합니다.</li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
