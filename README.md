@@ -322,7 +322,7 @@ Auto Configuration은 Spring Boot가 의존성을 보고 필요한 Bean을 자�
   </div>
 </details>
 
-##  백엔드 프레임워크
+## API 설계 및 통신
 <details markdown="1">
   <summary>REST와 SOAP의 차이를 설명해주세요.</summary>
   <div>
