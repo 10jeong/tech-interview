@@ -340,9 +340,10 @@ SOAP와 REST는 둘 다 다른 애플리케이션과 소통하기 위해 만들�
     <ul>
 
 <li>
-RESTful API 설계 원칙은 REST 아키텍처의 제약 조건을 따르면서 API를 설계하는 것입니다. 
-첫번째로 자원은 URI로 표현하고 행위는 HTTP Method로 구분하며, 두번째로 Stateless 원칙에 따라 서버는 클라이언트의 상태를 저장하지 않고,
-  세번째로는 일관된 Interface를 통해 일관된 방식으로 API를 제공하여 직관적이고 확장 가능한 시스템을 설계합니다.</li>
+RESTful API 설계 원칙은 REST 아키텍처의 제약 조건을 따르면서 API를 설계하는 것입니다.
+
+대표적으로 자원(Resource)은 URI로 표현하고 행위(Action)는 HTTP Method로 구분합니다.
+또한 Stateless 원칙에 따라 서버는 클라이언트의 상태를 저장하지 않아 확장성을 높일 수 있으며, 일관된 인터페이스를 제공하여 직관적이고 확장 가능한 API를 설계합니다.</li>
     </ul>
   </div>
 </details>
