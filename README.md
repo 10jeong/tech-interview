@@ -390,4 +390,17 @@ HashMap과 TreeMap은 모두 데이터를 저장하고 조회하기 위한 Map �
     </ul>
   </div>
 </details>
+</details>
+<details markdown="1">
+  <summary>Queue와 Priority Queue의 차이를 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+Queue와 Priority Queue는 데이터를 소비하는 방식의 차이라고 할 수 있습니다.  큐는 FIFO를, 우선 순위 큐는 중요도 기반의 우선순위를 따릅니다. 일반 큐는 연결 리스트나 배열로 간단하게 구현이 되어 삽입, 삭제 모두 O(1)이 걸리는 반면 우선순위 큐는 우선순위가 높은 데이터를 빠르게 찾기 위해 힙과 같은 복잡한 자료 구조를 활용해 log N 이라는 시간이 걸리고 정렬을 위한 오버헤드가 발생합니다. <br/>
+  실무에서도 이러한 원리를 적용하여, 정교한 우선순위와 복잡한 라우팅이 필요한 서비스에는 RabbitMQ를, 대용량 로그의 고속 처리와 데이터 영속성이 중요한 경우에는 Kafka를 선택합니다. 
+  .</li>
+    </ul>
+  </div>
+</details>
 
