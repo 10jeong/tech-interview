@@ -363,6 +363,19 @@ RESTful API 설계 원칙은 REST 아키텍처의 제약 조건을 따르면서 
   </div>
 </details>
 
+<details markdown="1">
+  <summary></summary>
+  <div>
+    <ul>
+      <li>
+        @Controller는 주로 화면(View)을 반환할 때 사용합니다. 반환된 값은 View Resolver가 해석하여 JSP, Thymeleaf 같은 템플릿을 렌더링합니다.
+        @RestController는 REST API를 만들 때 사용하며, 반환 객체를 JSON이나 XML로 변환해 HTTP Response Body에 바로 응답합니다.
+        @RestController는 @Controller와 @ResponseBody를 합친 형태입니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
