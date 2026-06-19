@@ -364,7 +364,7 @@ RESTful API 설계 원칙은 REST 아키텍처의 제약 조건을 따르면서 
 </details>
 
 <details markdown="1">
-  <summary></summary>
+  <summary>@Controller와@RestController차이점이 무엇인가요?</summary>
   <div>
     <ul>
       <li>
