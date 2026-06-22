@@ -388,6 +388,17 @@ RESTful API 설계 원칙은 REST 아키텍처의 제약 조건을 따르면서 
   </div>
 </details>
 
+<details markdown="1">
+  <summary>멱등성(Idempotency)을 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+        멱등성이란, 요청을 여러 번 보내더라도 한 번만 처리된 것처럼 보이게 만드는 성질입니다. API 측면에서 POST나 PATCH와 같이 데이터 수정이 일어날 수 있는 메서드는 멱등하지 않기 때문에 개발 시에 멱등키처럼 동일한 요청을 식별할 수 있는 멱등성 처리가 필요합니다. 구현해본 경험으로는, 결제 파트 개발 시 결제 승인이 중복으로 처리되지 않도록 기존 결제건의 상태값 기준으로 분기하여 이미 처리한 요청은 기존 응답과 동일하게 반환하도록 처리하였습니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
