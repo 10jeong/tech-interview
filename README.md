@@ -443,6 +443,20 @@ HATEOAS는 REST 아키텍처의 제약 조건 중 하나로, 하이퍼미디어�
   </div>
 </details>
 
+</details>
+<details markdown="1">
+  <summary>OAuth2.0에 대해서 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+OAuth 2.0은 인증이 아니라 권한 부여를 위한 프로토콜입니다. Resource Owner, Client, Authorization Server, Resource Server 4가지 역할로 구성되고, 가장 널리 쓰이는 Authorization Code Grant 방식에서는 사용자가 Authorization Server에서 로그인·동의하면 Authorization Code를 발급받고, Client의 백엔드가 이 Code와 client_secret을 함께 보내 Access Token으로 교환합니다. 이렇게 하면 Access Token이 브라우저를 거치지 않아서 탈취 위험이 줄어듭니다.
+</li>
+    </ul>
+  </div>
+</details>
+
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
