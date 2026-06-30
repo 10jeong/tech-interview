@@ -419,7 +419,17 @@ HTTP/2는 더 효율적이고 빠른 프로토콜 구현을 위해 2015년에 �
     </ul>
   </div>
 </details>
-
+<details markdown="1">
+  <summaryAPI> 문서 자동 생성 방법을 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+API 문서 자동 생성은 코드나 테스트 코드를 기반으로 API 명세를 자동 생성해 문서와 실제 코드의 불일치를 줄이는 방법입니다. 
+저는 프로젝트에서 Swagger를 사용했는데, 개발 단계에서 API를 바로 확인하고 테스트할 수 있어 협업에 유리했기 때문입니다.
+      </li>
+    </ul>
+  </div>
+</details>
 
 ## 자료구조
 <details markdown="1">
