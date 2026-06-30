@@ -420,7 +420,7 @@ HTTP/2는 더 효율적이고 빠른 프로토콜 구현을 위해 2015년에 �
   </div>
 </details>
 <details markdown="1">
-  <summaryAPI> 문서 자동 생성 방법을 설명해주세요.</summary>
+  <summary> API문서 자동 생성 방법을 설명해주세요.</summary>
   <div>
     <ul>
       <li>
