@@ -511,6 +511,17 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
     </ul>
   </div>
 </details>
+<details markdown="1">
+  <summary>Redis 주요 사용 사례를 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+        Redis는 메모리 기반의 Key-Value NoSQL 데이터베이스로, 매우 빠른 읽기와 쓰기 성능을 제공합니다. 대표적인 사용 사례는 캐시, 세션 저장소, JWT Refresh Token 관리 등이 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 
 ## 자료구조
 <details markdown="1">
