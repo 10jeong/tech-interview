@@ -554,6 +554,17 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>쿠키와 세션 차이를 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li>
+        쿠키는 클라이언트에 데이터를 저장하는 방식이고, 세션은 서버에 데이터를 저장하고 클라이언트에는 세션 ID만 저장하는 방식입니다. 따라서 세션이 보안성이 높지만 서버 자원을 사용한다는 차이가 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
