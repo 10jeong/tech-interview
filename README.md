@@ -575,6 +575,17 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>CSRF 공격과 방지 방법을 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+        CSRF는 사용자가 로그인한 상태를 악용해 사용자가 의도하지 않은 요청을 서버에 보내도록 하는 공격입니다. 브라우저가 쿠키를 자동으로 전송하는 특성을 이용해 발생합니다. 방지 방법으로는 CSRF Token, SameSite Cookie, Origin/Referer 검증 등이 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
