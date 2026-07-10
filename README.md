@@ -542,16 +542,6 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 <details markdown="1">
-  <summary>JVM 튜닝 방법을 설명해주세요.</summary>
-  <div>
-    <ul>
-      <li>
-        JVM은 Heap 크기나 GC 관련 옵션 등을 조정해 튜닝할 수 있습니다. 다만, 성능 문제가 있다고 해서 바로 JVM 옵션을 변경하지는 않습니다. 먼저 GC 로그, Heap 사용량, Thread Dump 등을 분석해 병목 원인을 파악한 뒤, 필요하다면 -Xms, -Xmx나 GC 설정(G1 GC, ZGC 등)을 조정해 응답 시간이나 GC로 인한 지연시간을 개선합니다.
-      </li>
-    </ul>
-  </div>
-</details>
-<details markdown="1">
   <summary>성능 모니터링 도구를 활용한 문제 해결 경험을 설명해주세요.</summary>
   <div>
     <ul>
