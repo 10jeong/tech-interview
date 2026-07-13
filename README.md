@@ -586,6 +586,17 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>JWT 기반 인증 방식을 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+        JWT 기반 인증은 서버가 세션 상태를 저장하지 않고, 토큰 자체에 사용자 인증 정보를 담아 요청을 검증하는 방식입니다. 사용자가 로그인하면 서버는 사용자 ID와 권한 정보가 포함된 JWT를 발급하고, 클라이언트는 이후 요청마다 Authorization 헤더에 Bearer 토큰을 포함합니다. 서버는 JWT의 서명을 검증하여 토큰의 위변조 여부와 만료 시간을 확인하고 인증을 처리합니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
