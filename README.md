@@ -608,6 +608,17 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>CORS와 해결 방법을 설명해주세요</summary>
+  <div>
+    <ul>
+      <li>
+        CORS는 웹 브라우저에서 동일한 출처에서의 리소스 접근만을 허용하는 보안 메커니즘인 SOP에서 특정 출처를 허용하기 위한 방법입니다. 기본적으로 브라우저는 SOP를 적용하기 때문에 다른 출처의 응답 사용을 제한합니다. 이때, 특정 출처에서의 요청이 필요한 경우 서버에서 Acess-Control-Allow-Origin 헤더를 설정하여 명시적으로 허용할 출처를 설정하거나, 프록시 서버를 통해 브라우저가 동일한 출처에서 요청하도록 구성하여 CORS 문제를 해결할 수 있습니다.
+      </li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
