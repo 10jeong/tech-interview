@@ -641,6 +641,20 @@ Redis는 인메모리 데이터베이스이므로 서버가 재시작되거나 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>SQL Injection과 방지 방법을 설명해주세요.</summary>
+  <div>
+    <ul>
+      <li> SQL Injection은 사용자 입력값이 SQL 문에 그대로 포함되어 의도하지 않은 SQL이 실행되는 공격입니다. 주로 입력값을 문자열로 이어 붙여 SQL을 생성할 때 발생하며, 로그인 우회나 데이터 조회, 삭제 등의 문제가 발생할 수 있습니다. 
+
+이를 방지하기 위해 PreparedStatement를 사용해 SQL과 입력값을 분리하고, 입력값 검증과 최소 권한 원칙을 함께 적용하여 보안을 강화해야합니다
+      </li>
+    </ul>
+  </div>
+</details>
+
+
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
