@@ -791,6 +791,19 @@ IP 주소는 네트워크에서 통신 대상을 식별하기 위한 주소이�
   </div>
 </details>
 
+<details markdown="1">
+  <summary>Webhook을 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+Webhook이란, 특정한 이벤트 발생 시 미리 등록한 Webhook URL로 관련 데이터를 전송하는 방식입니다. 일반적인 API에서 특정 이벤트 발생 여부를 알기 위해서는 주기적으로 요청하는 폴링 방식을 사용하는데, Webhook의 경우에는 클라이언트의 요청 없이도 서버에서 특정 이벤트가 발생하면 이벤트 관련 정보를 미리 설정한 URL로 전달합니다. 따라서 이벤트 중심의 빠른 데이터 처리가 가능합니다. 개인적인 경험으로는, Prometheus에 설정된 지표를 기반으로 장애 발생 시 알림을 Slack으로 전송하는 기능을 Webhook을 사용하여 만들어 본 경험이 있습니다.
+></li>
+    </ul>
+  </div>
+</details>
+
+
 
 ## 자료구조
 <details markdown="1">
