@@ -803,6 +803,16 @@ Webhook이란, 특정한 이벤트 발생 시 미리 등록한 Webhook URL로 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>HTTP Keep-Alive 역할을 설명해주세요.</summary>
+  <div>
+    <ul>
+
+<li>
+HTTP Keep-Alive는 persistent connection의 한 종류로, 클라이언트의 매 요청마다 새로운 TCP 연결을 열지 않고, 하나의 TCP 연결을 재사용하여 여러 개의 HTTP 요청과 응답을 주고받는 기술입니다. 이 기술을 통해 불필요하게 중복되는 TCP 연결 과정을 최소화시켜서 네트워크 부하를 줄일 수 있고, 3-way handshake 과정에 드는 시간이 소모되지 않는만큼 latency를 줄일 수 있습니다.</li>
+    </ul>
+  </div>
+</details>
 
 
 ## 자료구조
