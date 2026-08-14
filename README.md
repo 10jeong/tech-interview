@@ -814,6 +814,19 @@ HTTP Keep-Alive는 persistent connection의 한 종류로, 클라이언트의 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>nat를 설명해주세요</summary>
+  <div>
+    <ul>
+
+<li>
+NAT는 패킷 헤더의 IP 주소와 필요하면 TCP·UDP 포트까지 변환하는 기술입니다. 실제로 많이 사용하는 NAPT 또는 PAT 방식에서는 여러 내부 호스트가 하나의 공인 IP를 공유하고, 각 연결에는 서로 다른 외부 포트를 할당합니다. NAT 장비는 이 매핑을 변환 테이블에 저장하기 때문에 응답 패킷을 원래 내부 호스트로 돌려보낼 수 있습니다. 내부 서버가 외부로 요청할 때 출발지 주소를 바꾸는 것이 SNAT이고, 포트 포워딩처럼 외부 요청의 목적지를 내부 서버로 변경하는 것이 DNAT입니다. AWS에서는 Private Subnet 서버의 외부 API 호출에 NAT Gateway를 사용하고, Docker에서는 포트 공개와 컨테이너의 외부 통신에 DNAT와 Masquerading을 사용합니다. 다만 NAT는 주소 변환 기술이지 방화벽 자체는 아니며, 포트 고갈과 클라이언트 IP 유실 같은 한계가 있습니다.
+></li>
+    </ul>
+  </div>
+</details>
+
+
 
 ## 자료구조
 <details markdown="1">
