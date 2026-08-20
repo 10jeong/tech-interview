@@ -838,7 +838,7 @@ Round Robin과 IP Hash는 모두 로드밸런싱 기술입니다. Round Robin의
   </div>
 </details>
 
-## 분산 시스템과 클라우드
+## 분산 시스템 및 클라우드
 
 <details markdown="1">
   <summary>MSA에서 메시지 브로커를 사용하는 이유를 설명해주세요.</summary>
