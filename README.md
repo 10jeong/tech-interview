@@ -877,6 +877,20 @@ MSA 환경에서는 각 서비스 간 안정적인 통신을 위해 메시지 �
   </div>
 </details>
 
+<details markdown="1">
+  <summary>분산 트랙잭션을 설명해주세요</summary>
+  <div>
+    <ul>
+
+<li>
+분산 트랜잭션은 하나의 비즈니스 작업이 여러 DB나 외부 시스템에 걸쳐 수행될 때 전체 상태의 일관성을 맞추는 것입니다. 단일 DB와 달리 각 시스템의 트랜잭션 경계가 달라 일부만 성공할 수 있기 때문에 어렵습니다. 이를 해결하기 위해 2PC를 사용할 수 있지만 성능과 가용성 문제가 있어, MSA에서는 Saga의 보상 트랜잭션이나 Transactional Outbox를 이용해 최종적 일관성을 맞추는 방식도 많이 사용합니다. Trip Mate에서도 Toss 결제와 DB 변경, Kafka 이벤트 발행처럼 서로 다른 시스템 간 정합성이 필요한 지점이 이에 해당합니다.
+</li>
+    </ul>
+  </div>
+</details>
+
+
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
