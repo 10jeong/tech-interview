@@ -913,6 +913,22 @@ Kubernetes는 대규모 환경에서 컨테이너 개수가 늘어나면서 이�
   </div>
 </details>
 
+<details markdown="1">
+  <summary>AWS/GCP/Azure 주요 서비스를 설명해주세요. </summary>
+  <div>
+    <ul>
+
+<li>
+AWS, GCP, Azure는 모두 Compute, Storage, Database, Network 같은 공통적인 클라우드 인프라 서비스를 제공합니다. 대표적으로 VM은 AWS의 EC2, GCP의 Compute Engine, Azure의 Virtual Machines가 있고, Object Storage는 각각 S3, Cloud Storage, Blob Storage가 있습니다.
+
+실제 프로젝트에서는 이러한 인프라 서비스를 활용해 직접 환경을 구축해 보았습니다. GCP의 Compute Engine 위에서 Docker 기반의 Spring Boot 서비스와 Jenkins를 직접 띄우며, Network 설정과 Volume 마운트, 그리고 Container 환경을 수동으로 구성하고 운영해 보았습니다.
+
+이처럼 VM 위에서 OS와 미들웨어 환경을 직접 세팅하는 과정을 거치며 클라우드 인프라의 동작 원리를 깊이 있게 이해할 수 있었고, 향후 컨테이너 오케스트레이션 환경까지 확장할 수 있는 기반을 다졌습니다.
+</li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
