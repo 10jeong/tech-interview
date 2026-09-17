@@ -1055,6 +1055,19 @@ JUnit은 자바용으로 제공되는 단위 테스트 프레임워크입니다.
   </div>
 </details>
 
+## AI 기본
+
+<details markdown="1">
+  <summary>Prompt Engineering이란 무엇인가요?</summary>
+  <div>
+    <ul>
+
+<li>프롬프트 엔지니어링은 AI 최적화 기법 중 하나로, 생성형 AI의 환각을 줄이고 답변의 정확도를 높이기 위해 프롬프트를 설계하는 기술입니다. AI에게 주어진 맥락을 설명하거나, 역할이나 규칙을 정해주어 원하는 결과를 이끌어낼 수 있습니다. 대표적인 방법으로는, 정답에 해당하는 예시를 몇 가지 제공하는 Few-Shot 기법이나, 중간 추론 단계를 거치며 생각을 사슬처럼 연결하여 답변의 질을 높이는 CoT 기법이 있습니다.
+</li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
