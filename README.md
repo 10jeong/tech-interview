@@ -1164,6 +1164,17 @@ LLM은 사실을 데이터베이스에서 조회하는 것이 아니라 문맥�
   </div>
 </details>
 
+<details markdown="1">
+  <summary>Agent와 일반적인 Workflow의 차이는 무엇인가요?</summary>
+  <div>
+    <ul>
+
+<li>Agent와 일반적인 Workflow의 차이점은 실행 경로와 제어 주체에 차이가 있습니다. 일반적인 Workflow는 개발자가 코드로 작성한 내용을 따라가며 명령을 수행하기 때문에 주로 ‘개발자’가 주체적인 상황에서 미리 작성한 경로대로 실행됩니다. 그에 반해 Agent는 LLM이 주체적으로 상황을 판단하면서 다음에 진행할 행동이나 호출할 도구를 동적으로 선택합니다. 따라서 일반 Workflow는 미리 작성된 내용으로 실행되므로 예측 가능하며 안정적이라는 특징이 있고, Agent는 LLM의 판단에 따라 동적으로 실행되므로 유연한 상황 대처가 필요한 문제에 적합하다는 특징이 있습니다.
+</li>
+    </ul>
+  </div>
+</details>
+
 ## 자료구조
 <details markdown="1">
   <summary>문자열이 immutable인 이유를 설명해주세요</summary>
